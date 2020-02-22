@@ -1,0 +1,10 @@
+{
+     "type": "record",
+     "namespace": "br.com.foo.kafka.avro",
+     "name": "Cliente",
+     "version": "1",
+     "fields": [
+       { "name": "clienteId", "type": "string", "doc": "id do cliente" },
+       { "name": "name", "type": "string", "doc": "nome do cliente" }
+     ]
+}
