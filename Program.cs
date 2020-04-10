@@ -20,10 +20,9 @@ namespace confluent_kafka_producer
                 Url = "https://schema-registry:8181",
                 RequestTimeoutMs = 5000,
                 MaxCachedSchemas = 10,
-                ValueSubjectNameStrategy = SubjectNameStrategy.TopicRecord,
                 SslCaLocation = "C:/Users/raul/workspace/kafka-ssl-compose/secrets/CAroot.pem",
-                SslCertificateLocation = "C:/Users/raul/workspace/kafka-ssl-compose/secrets/schema-registry.keystore.jks",
-                SslCertificatePassword = "datahub"
+                SslKeystoreLocation = "C:/Users/raul/workspace/kafka-ssl-compose/secrets/schema-registry.keystore.jks",
+                SslKeystorePassword = "datahub"
             };
 
             var config = new ProducerConfig
