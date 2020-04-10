@@ -12,11 +12,10 @@
     <PackageReference Include="Confluent.SchemaRegistry" Version="1.4.0" />
     <PackageReference Include="Confluent.SchemaRegistry.Serdes" Version="1.4.0" />
    -->
-     <PackageReference Include="Confluent.SchemaRegistry.Serdes" Version="1.3.0" />
+     <PackageReference Include="Confluent.SchemaRegistry.Serdes.Avro" Version="1.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\confluent-kafka-dotnet-com-testes\src\Confluent.Kafka\Confluent.Kafka.csproj" />
     <ProjectReference Include="..\confluent-kafka-dotnet-com-testes\src\Confluent.SchemaRegistry\Confluent.SchemaRegistry.csproj" />
   </ItemGroup>  
 
